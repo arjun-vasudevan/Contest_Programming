@@ -1,0 +1,12 @@
+#include <algorithm> // swap
+
+int[] bubbleSort(int[] arr, int len) {
+	bool flag = true;
+	for (int i = 0; i < len && flag; i++) {
+		int flag = false;
+		for (int j = 0; j < len; j++) {
+			if (arr[j] > arr[j + 1])
+				swap(arr[j], arr[j + 1]);
+		}
+	}
+}
