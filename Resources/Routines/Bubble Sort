@@ -1,6 +1,6 @@
 /*
- This naive sorting algorithm involves repeated steps through an array, comparing 
- every adjacent pair of elements, and sorting them if they are in the wrong order.
+ This naive sorting algorithm involves repeated iterations of an array, comparing 
+ every adjacent pair of elements, and swappping them if they are in the wrong order.
  
  Bubble sort has an average and worst case time complexity of O(n²), and hence, 
  not optimal for large data sets.
