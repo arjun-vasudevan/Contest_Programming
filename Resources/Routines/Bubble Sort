@@ -2,8 +2,8 @@
  This naive sorting algorithm involves repeated steps through an array, comparing 
  every adjacent pair of elements, and sorting them if they are in the wrong order.
  
- Bubble sort has an avergae and worst case time complexity of O(n <sup> 2 </sup>), 
- and hence, not suitable for large data sets.
+ Bubble sort has an average and worst case time complexity of O(n²), and hence, 
+ not optimal for large data sets.
  */
 
 
