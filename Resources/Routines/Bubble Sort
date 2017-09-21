@@ -1,0 +1,30 @@
+/*
+ This naive sorting algorithm involves repeated steps through an array, comparing 
+ every adjacent pair of elements, and sorting them if they are in the wrong order.
+ 
+ Bubble sort has an avergae and worst case time complexity of O(n <sup> 2 </sup>), 
+ and hence, not suitable for large data sets.
+ */
+
+
+#include <algorithm> // swap
+
+int[] bubbleSort(int[] arr, int len) {
+	bool flag = true;
+	int n = len;
+
+	for (int i = 0; i < len && flag; i++) {
+		flag = false;
+		int newn = 0;
+
+		for (int j = 0; j < n - 1; j++) {
+			if (arr[j] > arr[j + 1]) {
+				swap(arr[j], arr[j + 1]);
+				flag = true;
+				newn = i
+			}
+		}
+
+		n = newn;
+	}
+}
