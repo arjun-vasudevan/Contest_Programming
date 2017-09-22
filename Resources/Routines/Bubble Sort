@@ -27,4 +27,6 @@ int[] bubbleSort(int[] arr, int len) {
 
 		n = newn;
 	}
+	
+	return arr;
 }
