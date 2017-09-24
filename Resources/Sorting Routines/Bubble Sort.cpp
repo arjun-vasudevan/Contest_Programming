@@ -7,7 +7,7 @@
  */
 
 #include <algorithm> // swap
-using namespcae std;
+using namespace std;
 
 /**
  * @param arr[]
