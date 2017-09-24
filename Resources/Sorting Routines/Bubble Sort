@@ -11,7 +11,7 @@ using namespcae std;
 
 /**
  * @param arr[]
- * 	An unsorted array of integers to be sorted
+ * 	A pointer to an unsorted array of integers
  * @param len
  * 	The length of the array passed in
  * @return
