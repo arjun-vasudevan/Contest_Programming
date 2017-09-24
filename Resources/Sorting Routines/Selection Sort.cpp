@@ -19,7 +19,7 @@ using namespace std;
  * @return
  *     Returns the sorted array of integers
  */
-int* insertionSort(int arr[], int len) {
+int* selectionSort(int arr[], int len) {
     for (int i = 0; i < len - 1; i++) {
         int minInd = i;
         
