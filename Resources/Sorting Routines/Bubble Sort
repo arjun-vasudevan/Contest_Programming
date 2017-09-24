@@ -1,15 +1,22 @@
 /*
- This naive sorting algorithm involves repeated iterations of an array, comparing 
- every adjacent pair of elements, and swappping them if they are in the wrong order.
- 
- Bubble sort has an average and worst case time complexity of O(n²), and hence, 
- not optimal for large data sets.
- */
+Bubble sort is a naive sorting algorithm involving repeated iterations of an array, comparing 
+every adjacent pair of elements, and swappping them if they are in the wrong order.
 
+Bubble sort has an average and worst case time complexity of O(n²), and hence, not optimal 
+for large data sets.
+ */
 
 #include <algorithm> // swap
 using namespcae std;
 
+/**
+ * @param arr[]
+ * 	An unsorted array of integers to be sorted
+ * @param len
+ * 	The length of the array passed in
+ * @return
+ * 	Returns the sorted array of integers
+ */
 int* bubbleSort(int arr[], int len) {
 	bool flag = true;
 	int n = len;
