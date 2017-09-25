@@ -1,11 +1,11 @@
 /*
  * Selection sort is a rudimentary sorting algorithm that maintains a sorted and unsorted
  * subarray. The process repeatedly takes the minimum element of the unsorted portion and
- * places it at the end of the sorted portion. It is a not a stable algorithm, meaning it
- * does not maintain the relative order of elements with equal values.
+ * places it at the end of the sorted portion.
  *
  * It has a O(n²) average/best case/worse case time complexity due to the 2 nested loops,
- * which is inefficient on large lists.
+ * which is inefficient on large lists. It is a not a stable algorithm, meaning it
+ * does not maintain the relative order of elements with equal values.
  */
 
 #include <algorithm> // swap
